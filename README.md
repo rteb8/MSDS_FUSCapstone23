@@ -39,13 +39,15 @@ The content of FUS-relevant abstracts may evolve over time, a phenomenon known a
 Looking ahead, the potential for expanding the use of BERT models in literature review processes is vast. One potential direction for future work involves developing BERT models that are capable of multi-class classification. This advancement would enable the models to categorize literature into multiple predefined categories, further refining the review process. This capability would significantly enhance the precision of literature reviews, making it easier for researchers to locate studies relevant with greater granularity. 
 
 ## Important files
-| File path                            | Description                                                                                            | 
-|:--------------------------------------|:--------------------------------------------------------------------------------------------------------|
-| dataset/zotero_data.csv             | Final compiled dataset used for training, validation, and testing                                      |
-| handover/export_excel.ipynb         | Python notebook to use FusBERT to make predictions on FUS-relevancy of articles given Excel input      | 
+| File path                                    | Description                                                                                                   | 
+|:--------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| dataset/zotero_data.csv                     | Final compiled dataset used for training, validation, and testing                                           |
 | hyper-parameter optimization/Bio_hyperparams.ipynb | Fine-tuned Bio+ClinicalBERT model with grid search hyper-parameter optimization, chosen as final FusBERT model |
-| model_files/all_BERT_models.ipynb  | All models used for binary classification                                                              |
-
+| model_files/all_BERT_models.ipynb          | All models used for binary classification                                                                     |
+| handover/export_excel.ipynb                 | Python notebook to use FusBERT to make predictions on FUS-relevancy of articles given Excel input             | 
+| handover/Progress_Presentation.pptx         | Presentation given to sponsors after fine-tuning BERT models on final compiled dataset                       | 
+| handover/1pm_leveraging_nlp.pptx            | Final project presentation given at SIEDS conference                                                                | 
+| handover/Progress_Presentation.pptx         | Presentation with sponsor updates. Slides 11-17 discuss the final transition meeting on 4/8/24, covering model demo, limitations, future work, and next steps.|
 
 ## Paper 
 
