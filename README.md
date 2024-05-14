@@ -47,7 +47,7 @@ Looking ahead, the potential for expanding the use of BERT models in literature 
 | handover/export_excel.ipynb                 | Python notebook to use FusBERT to make predictions on FUS-relevancy of articles given Excel input             | 
 | handover/Progress_Presentation.pptx         | Presentation given to sponsors after fine-tuning BERT models on final compiled dataset                       | 
 | handover/1pm_leveraging_nlp.pptx            | Final project presentation given at SIEDS conference                                                                | 
-| handover/FUSFCapstone24_Updates.pdf         | Presentation with sponsor updates. Slides 11-17 discuss the final transition meeting on 4/8/24, covering model demo, limitations, future work, and next steps.|
+| handover/FUSFCapstone24_Updates.pdf         | Presentation with sponsor updates. Slides 11-17 discuss the final transition meeting on 5/8/24, covering model demo, limitations, future work, and next steps.|
 
 ## Paper 
 
