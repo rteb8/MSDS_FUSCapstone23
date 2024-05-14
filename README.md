@@ -40,10 +40,12 @@ Looking ahead, the potential for expanding the use of BERT models in literature 
 
 ## Important files
 | File path                            | Description                                                                                            | 
+|:--------------------------------------|:--------------------------------------------------------------------------------------------------------|
 | dataset/zotero_data.csv             | Final compiled dataset used for training, validation, and testing                                      |
 | handover/export_excel.ipynb         | Python script to use FusBERT to make predictions on FUS-relevancy of articles given Excel input      | 
 | hyper-parameter optimization/Bio_hyperparams.ipynb | Fine-tuned Bio+ClinicalBERT model with grid search hyper-parameter optimization, chosen as final FusBERT model |
 | model_files/all_BERT_models.ipynb  | All models used for binary classification                                                              |
+
 
 ## Paper 
 
