@@ -28,7 +28,7 @@ Overall, the deep learning models outperformed traditional machine learning meth
 # Solution workflow
 Our best-performing FusBERT model was then integrated into the conventional literature review process. As mentioned previously, the literature review process consists of six distinct steps. Step 3, which involves screening for inclusion criteria, emerges as a prime candidate for leveraging machine learning techniques to enhance efficiency.
 
-![alt text](https://github.com/rteb8/MSDS_FUSCapstone23/blob/main/handover/Workflow_Diagram.png)
+![alt text](https://github.com/rteb8/MSDS_FUSCapstone23/blob/main/handover/Worflow_Diagram.png)
 
 The integration of ML into the relevant publication screening step of the entire process can be further delineated into five stages. Upon conducting searches in publication databases to identify relevant articles, researchers first export the search results into an Excel file. Subsequently, abstracts undergo preprocessing and tokenization to prepare them as inputs for our model. The FusBERT model receives these abstracts as inputs, generates predictions, and exports them back into the original Excel file. These predictions are then utilized to compile a final dataset comprising pertinent abstracts. This curated dataset is subsequently subject to quality assessment.
 
