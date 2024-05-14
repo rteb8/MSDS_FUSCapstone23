@@ -41,5 +41,6 @@ Looking ahead, the potential for expanding the use of BERT models in literature 
 ## Paper 
 
 ## FusBERT Hugging Face
+https://huggingface.co/rpanagides/fusBERT/tree/main 
 
 
