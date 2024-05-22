@@ -6,7 +6,7 @@ MSDS capstone project for the Focused Ultrasound Foundation (FUSF) by Rose Eluva
 | dataset/zotero_data.csv                     | Final compiled dataset used for training, validation, and testing                                           |
 | hyper-parameter optimization/Bio_hyperparams.ipynb | Fine-tuned Bio+ClinicalBERT model with grid search hyper-parameter optimization, chosen as final FusBERT model |
 | model_files/all_BERT_models.ipynb          | All models used for binary classification                                                                     |
-| handover/export_excel.ipynb                 | Python notebook to use FusBERT to make predictions on FUS-relevancy of articles given Excel input             | 
+| handover/export_excel.ipynb                 | Python notebook uses FusBERT to make predictions on FUS-relevancy of articles given Excel input             | 
 | handover/Progress_Presentation.pptx         | Presentation given to sponsors after fine-tuning BERT models on final compiled dataset                       | 
 | handover/1pm_leveraging_nlp.pptx            | Final project presentation given at SIEDS conference                                                                | 
 | handover/FUSFCapstone24_Updates.pdf         | Presentation with sponsor updates. Slides 11-17 discuss the final transition meeting on 5/8/24, covering model demo, limitations, future work, and next steps.|
