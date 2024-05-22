@@ -50,6 +50,7 @@ Looking ahead, the potential for expanding the use of BERT models in literature 
 | handover/FUSFCapstone24_Updates.pdf         | Presentation with sponsor updates. Slides 11-17 discuss the final transition meeting on 5/8/24, covering model demo, limitations, future work, and next steps.|
 
 ## Paper 
+R. Panagides, S. Jung, S. Fu, A. Singh and R. E. Muttikkal, "Enhancing Focused Ultrasound Literature Review Through Natural Language Processing-Driven Text Classification," 2024 Systems and Information Engineering Design Symposium (SIEDS), Charlottesville, VA, USA, 2024, pp. 409-414, doi: 10.1109/SIEDS61124.2024.10534719.
 
 ## FusBERT Hugging Face
 https://huggingface.co/rpanagides/fusBERT/tree/main 
