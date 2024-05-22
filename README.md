@@ -42,7 +42,7 @@ In pursuit of our secondary aim, the chosen model was integrated into the litera
 Overall, the deep learning models outperformed traditional machine learning methods used in this study. The deep learning models achieved higher accuracy, recall, and F1 scores. However, the traditional machine learning methods achieved higher precision scores. These metrics are based on model performance on a test dataset of 359 abstracts. The best performing fine-tuned FusBERT model exhibited the following performance metrics on our test data: accuracy 0.91, precision 0.85, recall 0.99, and F1 0.91.
 
 # Solution workflow
-Our best-performing FusBERT model was then integrated into the conventional literature review process. As mentioned previously, the literature review process consists of six distinct steps. Step 3, which involves screening for inclusion criteria, emerges as a prime candidate for leveraging machine learning techniques to enhance efficiency.
+The FusBERT model was then integrated into the conventional literature review process. As mentioned previously, the literature review process consists of six distinct steps. Step 3, which involves screening for inclusion criteria, emerges as a prime candidate for leveraging machine learning techniques to enhance efficiency.
 
 ![alt text](https://github.com/rteb8/MSDS_FUSCapstone23/blob/main/handover/Worflow_Diagram.png)
 
