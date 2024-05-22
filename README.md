@@ -1,7 +1,6 @@
 # MSDS_FUSCapstone23
 MSDS capstone project for the Focused Ultrasound Foundation (FUSF) by Rose Eluvathingal Muttikkal, Reanna Panagides, Skye Jung, and Abhishek Singh during the 2023-2024 academic year at the University of Virginia. Research presented at the 2024 IEEE SIEDS conference.
 
-## Important files
 | File path                                    | Description                                                                                                   | 
 |:--------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
 | dataset/zotero_data.csv                     | Final compiled dataset used for training, validation, and testing                                           |
