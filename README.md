@@ -1,6 +1,23 @@
 # MSDS_FUSCapstone23
 MSDS capstone project for the Focused Ultrasound Foundation (FUSF) by Rose Eluvathingal Muttikkal, Reanna Panagides, Skye Jung, and Abhishek Singh during the 2023-2024 academic year at the University of Virginia. Research presented at the 2024 IEEE SIEDS conference.
 
+## Important files
+| File path                                    | Description                                                                                                   | 
+|:--------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| dataset/zotero_data.csv                     | Final compiled dataset used for training, validation, and testing                                           |
+| hyper-parameter optimization/Bio_hyperparams.ipynb | Fine-tuned Bio+ClinicalBERT model with grid search hyper-parameter optimization, chosen as final FusBERT model |
+| model_files/all_BERT_models.ipynb          | All models used for binary classification                                                                     |
+| handover/export_excel.ipynb                 | Python notebook to use FusBERT to make predictions on FUS-relevancy of articles given Excel input             | 
+| handover/Progress_Presentation.pptx         | Presentation given to sponsors after fine-tuning BERT models on final compiled dataset                       | 
+| handover/1pm_leveraging_nlp.pptx            | Final project presentation given at SIEDS conference                                                                | 
+| handover/FUSFCapstone24_Updates.pdf         | Presentation with sponsor updates. Slides 11-17 discuss the final transition meeting on 5/8/24, covering model demo, limitations, future work, and next steps.|
+
+## Paper 
+R. Panagides, S. Jung, S. Fu, A. Singh and R. E. Muttikkal, "Enhancing Focused Ultrasound Literature Review Through Natural Language Processing-Driven Text Classification," 2024 Systems and Information Engineering Design Symposium (SIEDS), Charlottesville, VA, USA, 2024, pp. 409-414, doi: 10.1109/SIEDS61124.2024.10534719.
+
+## FusBERT Hugging Face
+https://huggingface.co/rpanagides/fusBERT/tree/main 
+
 # Problem statement 
 The current literature review process for the clinical team at Focused Ultrasound Foundation (FUSF) is time-consuming, inefficient, and prone to error
 
@@ -37,22 +54,3 @@ The content of FUS-relevant abstracts may evolve over time, a phenomenon known a
 
 # Future work
 Looking ahead, the potential for expanding the use of BERT models in literature review processes is vast. One potential direction for future work involves developing BERT models that are capable of multi-class classification. This advancement would enable the models to categorize literature into multiple predefined categories, further refining the review process. This capability would significantly enhance the precision of literature reviews, making it easier for researchers to locate studies relevant with greater granularity. 
-
-## Important files
-| File path                                    | Description                                                                                                   | 
-|:--------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| dataset/zotero_data.csv                     | Final compiled dataset used for training, validation, and testing                                           |
-| hyper-parameter optimization/Bio_hyperparams.ipynb | Fine-tuned Bio+ClinicalBERT model with grid search hyper-parameter optimization, chosen as final FusBERT model |
-| model_files/all_BERT_models.ipynb          | All models used for binary classification                                                                     |
-| handover/export_excel.ipynb                 | Python notebook to use FusBERT to make predictions on FUS-relevancy of articles given Excel input             | 
-| handover/Progress_Presentation.pptx         | Presentation given to sponsors after fine-tuning BERT models on final compiled dataset                       | 
-| handover/1pm_leveraging_nlp.pptx            | Final project presentation given at SIEDS conference                                                                | 
-| handover/FUSFCapstone24_Updates.pdf         | Presentation with sponsor updates. Slides 11-17 discuss the final transition meeting on 5/8/24, covering model demo, limitations, future work, and next steps.|
-
-## Paper 
-R. Panagides, S. Jung, S. Fu, A. Singh and R. E. Muttikkal, "Enhancing Focused Ultrasound Literature Review Through Natural Language Processing-Driven Text Classification," 2024 Systems and Information Engineering Design Symposium (SIEDS), Charlottesville, VA, USA, 2024, pp. 409-414, doi: 10.1109/SIEDS61124.2024.10534719.
-
-## FusBERT Hugging Face
-https://huggingface.co/rpanagides/fusBERT/tree/main 
-
-
